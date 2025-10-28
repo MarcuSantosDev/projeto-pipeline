@@ -37,7 +37,7 @@ jobs:
         run: |
           python manage.py test
 
-      # 6. Executa o servidor Django (opcional para demonstração)
+      # 6. Executa o servidor Django  
       - name: Executar servidor Django
         run: |
           nohup python manage.py runserver 0.0.0.0:8000 &
